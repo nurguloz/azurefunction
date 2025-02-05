@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "name": "myQueueItem",
+      "queueName": "order-queue",
+      "connection": "ServiceBusConnection",
+      "direction": "in"
+    }
+  ],
+  "scriptFile": "index.js"
+}
